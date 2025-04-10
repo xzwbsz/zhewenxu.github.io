@@ -2881,3 +2881,48 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 .highlight .w { color: #bbbbbb; }
 
 .highlight { background-color: #f8f8f8; }
+
+/* 新增专业样式 */
+.profile p {
+    margin: 0.5rem 0;
+}
+
+.ccf-b {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.ccf-c {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.publication-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-left: 4px solid var(--secondary-color);
+}
+
+.patent-item {
+    background: #f8f9fa;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+.status {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    .publication-item {
+        padding: 1rem;
+    }
+}
